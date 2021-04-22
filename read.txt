@@ -14,3 +14,5 @@ Comandos GIT na linha de comando (CMD):
   git reset --soft "colar código da versão desejada para volta" (volta para unstage permite alterar código da última versão e está pronto para commit)
   git reset --soft "colar código da versão desejada para volta" (volta para unstage permite alterar código da última versão e está pronto para add antes do commit)
   git diff (apresenta as mudanças nos arquivos a serem adicionados no unstage ou git)
+
+  Continuação
