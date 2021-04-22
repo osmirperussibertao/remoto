@@ -6,13 +6,12 @@ Comandos GIT na linha de comando (CMD):
   git commit -am "descrição da alteração" (grava a alteração feita direto no git sem precisar executar o 'add' para unstage)
   git status (mostra a situação das alterações pendentes de unstage e commit)
   git log (exibe todos os commits realizados)
-  git branch (demonstra blanch que foram gerados os commits)
-  git blanch nomenovoblanch (cria um novo blanch com o conteúdo do blanch atual e começa atualizar sem atualizar o blanch anterior)
-  git checkout nomeblanch (muda a blanch informada)
+  git branch (demonstra branch que foram gerados os commits)
+  git branch nomenovobranch (cria um novo branch com o conteúdo do blanch atual e começa atualizar sem atualizar o branch anterior)
+  git checkout nomebranch (muda a blanch informada)
   git --help (apresenta os comandos possíveis do git)
   git reset --hard "colar código da versão desejada para volta" (vai ignorar alterações das versões posteriores)
   git reset --soft "colar código da versão desejada para volta" (volta para unstage permite alterar código da última versão e está pronto para commit)
   git reset --soft "colar código da versão desejada para volta" (volta para unstage permite alterar código da última versão e está pronto para add antes do commit)
   git diff (apresenta as mudanças nos arquivos a serem adicionados no unstage ou git)
-
-  Continuação
+  git push endereçoremoto endereçobranchproj
